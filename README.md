@@ -1,5 +1,5 @@
 # File Size Check
-The goal of this solution is to be able to vaildate if a speficed file is over a certain size, if not then exit with 8754. This will allow you to do events based on exit codes. IE stop downstream processing if file is not over 1KB
+The goal of this solution is to be able to validate if a specify file is over a certain size, if not then exit with 8754. This will allow you to do events based on exit codes. IE stop downstream processing if file is not over 1KB over 1KB
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
