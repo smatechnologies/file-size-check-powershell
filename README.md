@@ -1,5 +1,5 @@
-# Project Name
-Project description
+# File Size Check
+The goal of this solution is to be able to vaildate if a speficed file is over a certain size, if not then exit with 8754. This will allow you to do events based on exit codes. IE stop downstream processing if file is not over 1KB
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
@@ -7,10 +7,15 @@ No Support and No Warranty are provided by SMA Technologies for this project and
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
 
 # Prerequisites
-
+* Powershell 5.1+
+* OpCon MSLSAM v19+
+* OpCon Release v18.3+
 
 # Instructions
-
+1. Run a Embedded Script using the FileSizeCheck.ps1 passing in parmaters similar to the example below: 
+```
+-fileToCheck "C:\ProgramData\OpConxps\Payments\Payments.txt" -size 1kb
+```
 
 # License
 Copyright 2019 SMA Technologies
